@@ -1,0 +1,22 @@
+body {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    background-color: gray;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px;
+    align-items: center;
+}
+.header-ul {
+    display: flex;
+}
+.li:not(:last-child) {
+    margin-right: 30px;
+}
+li > a {
+    font-size: 20px;
+}
