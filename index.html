@@ -7,29 +7,114 @@
     <title>Final Project</title>
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <script src="https://kit.fontawesome.com/291c4e1b38.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="https://www.logo.wine/a/logo/Babylon.js/Babylon.js-Logo.wine.svg" sizes="16x16"/>
+    
 </head>
 <body>
-    <header>
+   <header>
         <div class="header">
             <a href="#">
                 <img src="img/moon.svg" alt="moon">
             </a>
+
             <nav class="nav">
                 <ul class="header-ul">
                     <li class="li">
                         <a href="*">Home</a>
                     </li>
                     <li class="li">
-                        <a href="*">Photos</a>
+                        <a href="*">About us</a>
                     </li>
                     <li class="li">
                         <a href="*">Last page</a>
                     </li>
                 </ul>
             </nav>
+            <div class="bar">
+                <i class="fas fa-bars"></i>
+              </div>
         </div>
-    </header>
+    </header> 
+
+    <!--section 1-->
+    <section>
+        <div class="conteiner">
+            <div class="wrapper">
+                <!--<img src="img/img-1.png" alt="img">-->
+                <h2 class="central-title">
+                    Star map of the happiest moment of your life
+                </h2>
+                <p class="central-text">
+                    We make beautifully designed star maps that
+                    show the unique alignment of the stars in a 
+                    place and time chosen by you. Birthday, engagement,
+                    wedding, when you first met... the stars never look
+                    the same twice.
+                </p>
+            </div>
+
+            <div class="div-div auth">
+                <form class="form" method="POST">
+                    <div class="info">
+                        <label for="username">username</label>
+                        <input class="input" type="text" name="username" id="username" placeholder="username" > 
+                    </div>
+
+                    <div class="info">
+                        <label for="password">password</label>
+                        <input class="input" type="password" name="password" id="password" placeholder="password">
+                    </div>
+                    <div class="info">
+                        <label for="country"> country</label>
+                        <select name="country" id="country">
+                            <option value="georgia">georgia</option>
+                            <option value="russia">russia</option>
+                            <option value="english">english</option>
+                        </select>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="html">other</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="css">male</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="javascript">female</label>
+                        </div>
+                    </div>
+                    <div>
+                        <input class="submit" type="submit" value="sign in">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--section 1 end-->
+    <!--section 2-->
+    <section>
+        <div class="section-2-conteiner">
+            <div class="section-2-title">
+                <h2>We Live Uner Lucky Stars</h2>
+                <p class="p">
+                    Our maps are independently verified for their 
+                    scientific accuracy to help you avoid inauthentic
+                    and fake star maps.
+                </p>
+            </div>
+            <img src="img/r1.png" alt="stars map">
+        </div>
+    </section>
+    <!--section 2 end-->
+
 </body>
 </html>

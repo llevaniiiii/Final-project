@@ -1,15 +1,20 @@
 body {
     max-width: 1170px;
     margin: 0 auto;
+    background-color: rgb(113, 116, 161);
 }
+/* header */
 .header {
     width: 100%;
-    background-color: gray;
-    display: block;
+    background-color: lightgray;
+    padding: 18px 25px;
     display: flex;
     justify-content: space-between;
-    padding: 25px 25px;
     align-items: center;
+    margin-bottom: 30px;
+}
+.nav {
+    display: block;
 }
 .header-ul {
     display: flex;
@@ -20,3 +25,101 @@ body {
 li > a {
     font-size: 20px;
 }
+.bar {
+    cursor: pointer;
+    display: none;
+    font-size: 30px;
+}
+/* header end */
+
+/* section 1 */
+.conteiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.wrapper {
+    width: 300px; 
+}
+/*.wrapper > img {
+    width: 100%;
+} */
+.central-title {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.central-text {
+    font-size: 14px;
+    color: #A0A0A0;
+}
+/* info */
+.auth {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.form {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10%;
+
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.info >label {
+    margin-bottom: 5px;
+}
+.info >input {
+    width: 200px;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 15px;
+}
+.input::placeholder {
+    color: seagreen;
+}
+.submit {
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: seagreen;
+    border: none;
+    color: seashell;
+}
+
+/* section 1 end */
+/* section 2 */
+.section-2-conteiner {
+    margin: 50px auto 0;
+}
+.section-2-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-2-conteiner h2 {
+    font-size: 35px;
+    color: #060A10;
+    margin-bottom: 20px;
+    font-family: 'Lobster';
+}
+.section-2-conteiner p {
+    font-size: 14px;
+    color: #A0A0A0;
+    margin-bottom: 30px;
+    width: 300px;
+    font-family: 'Shadows Into';
+}
+.section-2-conteiner > img {
+    width: 100%;
+}
+/* section 2 end */ 
+
+/* footer start */ 
