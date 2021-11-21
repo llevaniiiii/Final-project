@@ -3,6 +3,24 @@
         width: 95%;
     }
 }
+@media (max-width: 730px) {
+    .section-3-container {
+        flex-direction: column;
+    }
+    .buzzfeed-wrapper, .facebook-wrapper, .google-wrapper {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 670px) {
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about, .occasions, .support {
+        margin-bottom: 25px;
+    }
+}
 @media (max-width: 600px) {
     .header-ul {
         display: none;
@@ -11,7 +29,7 @@
         display: block;
     }
 }
-@media (max-width: 520px) {
+@media (max-width: 548px) {
     .wrapper {
         margin-bottom: 25px;
     }
