@@ -3,7 +3,7 @@ body {
     margin: 0 auto;
     background-color: rgb(113, 116, 161);
 }
-/* header */
+/*global header */
 .header {
     width: 100%;
     background-color: lightgray;
@@ -32,6 +32,7 @@ li > a {
 }
 /* header end */
 
+/*index page*/
 /* section 1 */
 .container {
     display: flex;
@@ -190,3 +191,63 @@ footer {
     color: #060A10;
     font-size: 24px;
 }
+
+
+/*index page end*/
+/*about page*/
+
+.friendsimg {
+    width: 100%;
+    margin: 0 auto 100px;
+}
+/*section 1*/
+
+.customers-story {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.customers-story-title > h2 {
+    font-size: 40px;
+    color: #060A10;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.customers-story-title > h4 {
+    font-size: 14px;
+    color: #989898;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.customers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.customer-boy {
+    max-width: 320px;
+    width: 100%;
+}
+.customers-wrapper {
+    max-width: 320px;
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+.customers-wrapper > h3 {
+    font-size: 16px;
+    padding: 20px 0 10px 20px;
+}
+.customers-wrapper > p {
+    font-size: 13px;
+    color: #989898;
+    padding: 10px;
+}
+
+
+
+
+

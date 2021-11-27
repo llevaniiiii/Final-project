@@ -3,6 +3,14 @@
         width: 95%;
     }
 }
+@media (max-width: 960px) {
+    .customers-story {
+        width: 80%;
+    }
+    .customers-wrapper {
+        margin-bottom: 30px;
+    }
+}
 @media (max-width: 730px) {
     .section-3-container {
         flex-direction: column;
