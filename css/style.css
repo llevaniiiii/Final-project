@@ -1,9 +1,10 @@
+/* global*/
 body {
     max-width: 1170px;
     margin: 0 auto;
     background-color: rgb(113, 116, 161);
 }
-/*global header */
+/*header */
 .header {
     width: 100%;
     background-color: lightgray;
@@ -32,8 +33,16 @@ li > a {
 }
 /* header end */
 
+/*footer*/
+footer {
+    padding: 25px 25px;
+    background-color: lightgray;
+}
+/*global end*/
+
 /*index page*/
-/* section 1 */
+
+/* section 1 index*/
 .container {
     display: flex;
     justify-content: space-around;
@@ -43,17 +52,20 @@ li > a {
 .wrapper {
     width: 300px; 
 }
-/*.wrapper > img {
-    width: 100%;
-} */
 .central-title {
     font-size: 30px;
     margin-bottom: 15px;
     line-height: 30px;
+    text-shadow: 5px 5px 7px red;
 }
 .central-text {
     font-size: 14px;
     color: #A0A0A0;
+    transition: 3s;
+}
+.central-text:hover {
+    color: red;
+    font-size: 20px;
 }
 /* info */
 .auth {
@@ -95,9 +107,9 @@ li > a {
     color: seashell;
 }
 
-/* section 1 end */
+/* section 1 end index*/
 
-/* section 2 */
+/* section 2 index*/
 .section-2-container {
     margin: 50px auto 0;
 }
@@ -106,6 +118,7 @@ li > a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-shadow: 2px 3px 5px orange;
 }
 .section-2-container h2 {
     font-size: 35px;
@@ -123,9 +136,9 @@ li > a {
 .section-2-container > img {
     width: 100%;
 }
-/* section 2 end */ 
+/* section 2 end index*/ 
 
-/* section 3*/
+/* section 3 index*/
 .section-3-container {
     width: 100%;
     display: flex;
@@ -141,8 +154,9 @@ li > a {
 .buzzfeed-wrapper > h3 {
     font-size: 22px;
     color: #060A10;
+    text-shadow: 3px 3px 6px red;
 }
-.buzzfeed-wrapper > img {
+.buzzfeed-wrapper img {
     margin-top: 30px;
     margin-left: 110px;
 }
@@ -167,14 +181,10 @@ li > a {
 .google-img {
     margin: 18px 33px 0;
 }
-/*section 3 end */
+/*section 3 end index*/
 
-/* footer start */ 
+/* footer start index*/ 
 
-footer {
-    padding: 25px 25px;
-    background-color: lightgray;
-}
 .footer-container {
     width: 90%;
     margin: 0 auto;
@@ -191,16 +201,18 @@ footer {
     color: #060A10;
     font-size: 24px;
 }
-
+/* footer end index*/
 
 /*index page end*/
+
 /*about page*/
 
 .friendsimg {
     width: 100%;
     margin: 0 auto 100px;
 }
-/*section 1*/
+
+/*section 1 about us*/
 
 .customers-story {
     max-width: 1170px;
@@ -213,6 +225,13 @@ footer {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    font-family: 'Shadows Into';
+    z-index: 5;
+    transition: all 3s;
+}
+.customers-story-title > h2:hover {
+	transform: rotate(-360deg);
+    color: yellowgreen;
 }
 .customers-story-title > h4 {
     font-size: 14px;
@@ -220,6 +239,10 @@ footer {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+    transition: 2s;
+}
+.customers-story-title > h4:hover {
+    font-size: 20px;
 }
 .customers {
     display: flex;
@@ -246,8 +269,65 @@ footer {
     color: #989898;
     padding: 10px;
 }
+/*section 1 end about us*/
 
+/*section 2 about us*/
+.love-letter {
+    margin: 70px auto;
+    padding: 15px 15px;
+    background-color: #FF7D8D;
+    border-radius: 20px;
+}
+.love-letter > h2 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 16px;
+    text-shadow: 2px 2px 10px black;
+}
+.love-letter > h3 {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 10px black;
+}
+.love-letter > div {
+    display: flex;
+    justify-content: center;
+}
+.love-letter h4 {
+    font-size: 14px;
+    width: 350px;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+/*section 2 end about us*/
 
-
-
-
+/*footer about us*/
+.about-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-footer > p {
+    color: #989898;
+    font-size: 16px;
+}
+.about-footer li {
+    color: #989898;
+    font-size: 16px;
+    line-height: 25px;
+}
+.social-footer > p {
+    font-size: 24px;
+    color: #060A10;
+    margin-bottom: 20px;
+}
+.social-footer a {
+    margin-right: 15px;
+    color: rgb(113, 116, 161);
+}
+/*footer end about us*/
