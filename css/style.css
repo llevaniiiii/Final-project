@@ -40,9 +40,9 @@ footer {
 }
 /*global end*/
 
-/*index page*/
+/*index*/
 
-/* section 1 index*/
+/* section 1*/
 .container {
     display: flex;
     justify-content: space-around;
@@ -107,9 +107,9 @@ footer {
     color: seashell;
 }
 
-/* section 1 end index*/
+/* section 1 end*/
 
-/* section 2 index*/
+/* section 2*/
 .section-2-container {
     margin: 50px auto 0;
 }
@@ -181,9 +181,9 @@ footer {
 .google-img {
     margin: 18px 33px 0;
 }
-/*section 3 end index*/
+/*section 3 end*/
 
-/* footer start index*/ 
+/* footer*/ 
 
 .footer-container {
     width: 90%;
@@ -201,133 +201,3 @@ footer {
     color: #060A10;
     font-size: 24px;
 }
-/* footer end index*/
-
-/*index page end*/
-
-/*about page*/
-
-.friendsimg {
-    width: 100%;
-    margin: 0 auto 100px;
-}
-
-/*section 1 about us*/
-
-.customers-story {
-    max-width: 1170px;
-    width: 100%;
-    margin: 0 auto;
-}
-.customers-story-title > h2 {
-    font-size: 40px;
-    color: #060A10;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    font-family: 'Shadows Into';
-    z-index: 5;
-    transition: all 3s;
-}
-.customers-story-title > h2:hover {
-	transform: rotate(-360deg);
-    color: yellowgreen;
-}
-.customers-story-title > h4 {
-    font-size: 14px;
-    color: #989898;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    transition: 2s;
-}
-.customers-story-title > h4:hover {
-    font-size: 20px;
-}
-.customers {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.customer-boy {
-    max-width: 320px;
-    width: 100%;
-}
-.customers-wrapper {
-    max-width: 320px;
-    width: 100%;
-    background-color: lightgray;
-    border-radius: 15px;
-}
-.customers-wrapper > h3 {
-    font-size: 16px;
-    padding: 20px 0 10px 20px;
-}
-.customers-wrapper > p {
-    font-size: 13px;
-    color: #989898;
-    padding: 10px;
-}
-/*section 1 end about us*/
-
-/*section 2 about us*/
-.love-letter {
-    margin: 70px auto;
-    padding: 15px 15px;
-    background-color: #FF7D8D;
-    border-radius: 20px;
-}
-.love-letter > h2 {
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    margin-bottom: 16px;
-    text-shadow: 2px 2px 10px black;
-}
-.love-letter > h3 {
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    margin-bottom: 50px;
-    text-shadow: 2px 2px 10px black;
-}
-.love-letter > div {
-    display: flex;
-    justify-content: center;
-}
-.love-letter h4 {
-    font-size: 14px;
-    width: 350px;
-    color: white;
-    text-shadow: 2px 2px 8px black;
-}
-/*section 2 end about us*/
-
-/*footer about us*/
-.about-footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.about-footer > p {
-    color: #989898;
-    font-size: 16px;
-}
-.about-footer li {
-    color: #989898;
-    font-size: 16px;
-    line-height: 25px;
-}
-.social-footer > p {
-    font-size: 24px;
-    color: #060A10;
-    margin-bottom: 20px;
-}
-.social-footer a {
-    margin-right: 15px;
-    color: rgb(113, 116, 161);
-}
-/*footer end about us*/
