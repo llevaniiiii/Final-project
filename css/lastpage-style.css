@@ -1,0 +1,135 @@
+/* global*/
+body {
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: rgb(113, 116, 161);
+}
+/*header */
+.header {
+    width: 100%;
+    background-color: lightgray;
+    padding: 18px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.nav {
+    display: block;
+}
+.header-ul {
+    display: flex;
+}
+.li:not(:last-child) {
+    margin-right: 30px;
+}
+li > a {
+    font-size: 20px;
+}
+.bar {
+    cursor: pointer;
+    display: none;
+    font-size: 30px;
+}
+/* header end */
+
+/*footer*/
+footer {
+    padding: 25px 25px;
+    background-color: lightgray;
+}
+ 
+/*section 1*/
+.Highlights-conainer {
+    width: 100%;
+    margin: 60px 0 110px;
+}
+.Highlights-conainer > h1 {
+    font-size: 38px;
+    color: #060A10;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+}
+.Highlights-conainer > h4 {
+    font-size: 14px;
+    color: #989898;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.card-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.cards {
+    background-color: lightgray;
+    padding: 20px;
+    max-width: 280px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 3px 5px 7px rgb(146, 59, 38);
+}
+.cards >img {
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+.cards > h2 {
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.cards > p {
+    font-size: 15px;
+    color: #989898;
+}
+/*section 1 end*
+/*section 2*/
+.about-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 45px;
+}
+.abouts > h3{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.li > span {
+    color: #989898;
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.map {
+    border-radius: 10px;
+}
+/*section 2 end*/
+/* footer */
+.about-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-footer > p {
+    color: #989898;
+    font-size: 16px;
+}
+.about-footer li {
+    color: #989898;
+    font-size: 16px;
+    line-height: 25px;
+}
+.social-footer > p {
+    font-size: 24px;
+    color: #060A10;
+    margin-bottom: 20px;
+}
+.social-footer a {
+    margin-right: 15px;
+    color: rgb(113, 116, 161);
+}
