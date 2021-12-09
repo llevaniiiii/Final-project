@@ -54,11 +54,11 @@
         margin-bottom: 25px;
     }
 }
-@media (max-width: 670px) {
+@media (max-width: 685px) {
     .footer-container {
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-content: center;
     }
     .about, .occasions, .support {
         margin-bottom: 25px;

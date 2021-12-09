@@ -1,13 +1,15 @@
 /* global*/
 body {
-    max-width: 1170px;
-    margin: 0 auto;
     background-color: rgb(113, 116, 161);
 }
 /*header */
-.header {
-    width: 100%;
+header {
     background-color: lightgray;
+}
+.header {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
     padding: 18px 25px;
     display: flex;
     justify-content: space-between;
@@ -32,7 +34,10 @@ li > a {
     font-size: 30px;
 }
 /* header end */
-
+section {
+    max-width: 1170px;
+    margin: 0 auto;
+}
 /*footer*/
 footer {
     padding: 25px 25px;
@@ -111,6 +116,9 @@ footer {
 /*section 2 end*/
 /* footer */
 .about-footer {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
